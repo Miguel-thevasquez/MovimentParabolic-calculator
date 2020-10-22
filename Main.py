@@ -2,7 +2,7 @@
 """
 Created on Thu Apr 23 16:30:48 2020
 -----simulador parabola---------------------------
-@author: miguel
+@author: Miguel-thevasquez
 
 """
 import math
@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 #start
 print("bienvenido al simulador de trayectoria ")
 print("Created by Miguel Ángel Vásquez Quintero")
+print("Github: Miguel-thevasquez")
 print("ingrese angulo de lanzamiento y velocidad inicial")
 print("--tiene unmargen de error de 0.01% --")
 
