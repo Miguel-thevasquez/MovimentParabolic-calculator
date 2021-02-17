@@ -46,13 +46,13 @@ while t <= tv:
     if tv > 1:
         x = vo * math.cos(gr) * t 
         y = (vo * math.sin(gr) * t) - (0.5 * g * t**2)
-        t = t+1
+        t = t+0.1
         xt.append(x)
         yt.append(y)
-    elif t < 1:
+    elif t <= 1:
         x = vo * math.cos(gr) * t 
         y = (vo * math.sin(gr) * t) - (0.5 * g * t**2)
-        t = t+0.001
+        t = t+0.0001
         xt.append(x)
         yt.append(y)
     
