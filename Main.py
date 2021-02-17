@@ -13,7 +13,8 @@ print("bienvenido al simulador de trayectoria ")
 print("Created by Miguel Ángel Vásquez Quintero")
 print("Github: Miguel-thevasquez")
 print("ingrese angulo de lanzamiento y velocidad inicial")
-print("--tiene unmargen de error de 0.01% --")
+print("--tiene un margen de error de 0.01% --")
+print("use estandar internacional")
 
 #variables fijas-------------------------------------------------
 t = 0
